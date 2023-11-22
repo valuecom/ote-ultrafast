@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    background-color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--color-dark);
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-blue);
+    border: 2px solid #f8f8f8;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-dark);
+}
+
+:root {
+    --color-white: #ffffff;
+    --color-dark: #444444;
+    --color-blue: #3b61a6;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+svg {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.btn-style-1 {
+    color: var(--color-blue);
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    position: relative;
+}
+
+.btn-style-1:after {
+    content: " ";
+    display: inline-block;
+    background-image: url(https://cripe.valuecom-demos.com/wp-content/uploads/2023/08/arrow-btn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+    transform: translateX(10px);
+    position: absolute;
+    bottom: 3px;
+    transition: 0.3s;
+}
+
+.btn-style-1:hover:after {
+    transform: translate(13px, -3px);
+}
+
+.btn-style-2 {
+    color: var(--color-blue);
+    background-color: var(--color-white);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    border-radius: 3px;
+    padding: 14px 25px;
+    transition: 0.3s;
+}
+
+.btn-style-2:hover {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
+
+
+.border-bottom-white {
+    border-bottom: 1px solid #ffffff;
+}
+
+.text-color-white {
+    color: var(--color-white);
+}
+
+.text-color-dark {
+    color: var(--color-dark);
+}
+
+.text-color-blue {
+    color: var(--color-blue);
+}
+
+.highlight-text {
+    color: var(--color-blue);
+}
+
+.small-text {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 46px;
+    font-family: 'PFSquareSansProMedium';
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 36px;
+    line-height: 46px;
+    font-family: 'PFSquareSansProMedium';
+}
+
+
+/* header */
+.header-menu ul li.menu-item a,
+.lang-menu ul li a {
+    color: var(--color-dark);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    position: relative;
+}
+
+.menu-item a:before {
+    content: " ";
+    height: 1px;
+    width: 0%;
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--color-white);
+    transition: 0.3s;
+}
+
+.menu-item a:hover:before,
+.menu-item.current-menu-item a:before {
+    width: 100%;
+}
+
+header {
+    z-index: 999;
+}
+
+header.sticky {
+    position: fixed !important;
+    background-color: var(--color-blue);
+    border: none;
+    box-shadow: 0 0 8px rgb(0 0 0 / 40%);
+    animation: slide-down 0.6s;
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.lang-menu ul li a:hover,
+.lang-menu ul li.current-language a {
+    color: var(--color-blue);
+}
+
+/* footer */
+.main-footer,
+.copyright-footer {
+    background-color: var(--color-blue);
+}
+
+.footer-menu a {
+    color: var(--color-white);
+}
+
+
+
+/* main */
+.home-top-section {
+    background-image: url(/images/home-banner-video.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.change-section-icon {
+    animation-name: up-down;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.change-section-icon svg {
+    cursor: pointer;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.home-network-section {
+    background-image: url(/images/home-map-greece.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* MEDIA QUERY */
+
+/* header */
+@media (min-width: 992px) {
+
+    .w-lg-50 {
+        width: 50%
+    }
+
+    .header-menu ul li.menu-item a,
+    .lang-menu ul li a {
+        color: var(--color-white);
+        text-decoration: none;
+    }
+
+    h2 {
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    h4 {
+        font-size: 52px;
+        line-height: 66px;
+    }
+
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'PFSquareSansProMedium';
+    src: url('/fonts/PFSquareSansProMedium.woff2') format('woff2'),
+        url('/fonts/PFSquareSansProMedium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
