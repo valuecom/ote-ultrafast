@@ -99,7 +99,7 @@
         </section>
     </main>
 
-    <include src="./footer.php"></include>
+    <?php include "/footer.php" ?>
 
 </body>
 
