@@ -1,0 +1,38 @@
+.white-header .header-menu ul li.menu-item a, .lang-menu ul li a {
+    color: #444444;
+}
+
+.header-hero-image{
+    object-fit:cover;
+    width: 100%;
+    min-height:200px;
+}
+
+.breadcrumbs{
+    background-color: #e3e3e3;
+    font-size:12px;
+}
+
+.breadcrumbs span{
+    color: #444444;
+}
+
+.breadcrumbs a{
+    color: #3b61a6;
+}
+
+.main-content h1{
+    font-family: 'PFSquareSansProMedium';
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.main-content .main-text p {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+
+header.white-header.sticky{
+    background-color: #ffffff;
+}

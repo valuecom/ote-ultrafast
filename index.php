@@ -21,7 +21,7 @@
 
 <body>
 
-    <?php include "./header.php" ?>
+    <?php include "./header-home.php" ?>
 
     <main>
         <section>

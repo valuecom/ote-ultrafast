@@ -1,12 +1,12 @@
 <?php
 
 ?>
-<header class="w-100 border-bottom-white white-header">
+<header class="position-absolute w-100 border-bottom-white">
     <div class="container">
         <div class="header-inner py-4 d-flex align-items-center justify-content-between">
 
             <div class="logo">
-                <a href="/" title="OTE Ultrafast"><img src="./images/Ultrafast_logo_colorful.webp"
+                <a href="/" title="OTE Ultrafast"><img src="./images/ultrafast-logo-white.webp"
                         alt="ote-ultrafast-logo"></a>
             </div>
             <nav class="header-menu d-none d-lg-flex">
