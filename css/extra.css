@@ -36,3 +36,35 @@
 header.white-header.sticky{
     background-color: #ffffff;
 }
+
+.service-box-left .service-box-wrapper{
+    background-image: url(../images/service/Evrizonikotita_imag1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:120px 0;
+}
+.service-box-right .service-box-wrapper{
+    background-image: url(../images/service/Evrizonikotita_imag2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:120px 0;
+}
+
+.service-box-left a{
+    font-family: 'PFSquareSansProMedium';
+    font-size: 51px;
+    font-weight: 500;
+    color: #fff;
+    
+}
+
+.service-box-right a{
+    font-family: 'PFSquareSansProMedium';
+    font-size: 51px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3b60a6da;
+    padding:100px;
+}

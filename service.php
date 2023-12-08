@@ -28,14 +28,14 @@
         <section>
             <div class="container-fluid p-0 m-0">
                 <div class="col-12">
-                    <img src="./images/about-us/About_us_header_img.webp" alt="" class="header-hero-image" >
+                    <img src="./images/service/Evrizonikotita_banner_imag.webp" alt="" class="header-hero-image" >
                 </div>
             </div>
         </section>
         <section class="breadcrumbs" >
             <div class="container">
                 <div class="col-12 py-3">
-                    <span>HOME</span> / <a href="#" >ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</a>
+                    <span>HOME</span> / <span>ΥΠΗΡΕΣΙΕΣ</span> / <a href="#" >ΕΥΡΥΖΩΝΙΚΟΤΗΤΑ</a>
                 </div>
             </div>
         </section>
@@ -43,17 +43,18 @@
             <div class="container pb-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-10 py-5">
-                        <h1 class="mt-5 mb-5" >Σχετικά με εμάς</h1>
-                        <div class="main-text" >
-                            <p>
-                                Ο Όμιλος Εταιρειών ΟΤΕ, επελέγη ως Iδιωτικός Φορέας Σύμπραξης (ΙΦΣ) για το Έργο Ultra-FastBroadband (UFBB), που θα φέρει το FTTH σε ημιαστικές και αγροτικές περιοχές. 
-                            </p>
-                            <p>
-                                Στο πλαίσιο αυτού του έργου ιδρύθηκε η εταιρια UltrafastOTE Μονοπρόσωπη Ανώνυμη Εταιρεία Ειδικού Σκοπού (UltrafastOTE Α.Ε.Ε.Σ.)
-                            </p>
-                            <p>
-                                Η UltrafastOTE εδρεύει στον Δήμο Αμαρουσίου Αττικής (με κεντρικά γραφεία στη Λεωφ. Κηφισίας 99), είναι εγγεγραμμένη στο ΓΕΜΗ με αριθμό 163832501000 και έχει ΑΦΜ 801813244.
-                            </p>
+                        <h1 class="mt-5 mb-5" >Ευρυζωνικότητα</h1>
+                        <div class="row gx-4" >
+                            <div class="service-box-left text-center col ">
+                                <div class="service-box-wrapper">
+                                    <a href="#">VLU FTTT</a>
+                                </div>
+                            </div>
+                            <div class="service-box-right text-center col  ">
+                                <div class="service-box-wrapper">
+                                    <a href="#">VLU FTTC</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
