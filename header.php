@@ -1,7 +1,7 @@
 <?php
 
 ?>
-<header class="w-100 border-bottom-white white-header">
+<header class="w-100 border-bottom-black white-header">
     <div class="container">
         <div class="header-inner py-4 d-flex align-items-center justify-content-between">
 

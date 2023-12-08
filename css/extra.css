@@ -1,5 +1,12 @@
+.white-header{
+    background-color:#ffffff;
+}
 .white-header .header-menu ul li.menu-item a, .lang-menu ul li a {
     color: #444444;
+}
+
+.border-bottom-black{
+    border-bottom:1px solid #808080;
 }
 
 .header-hero-image{
@@ -19,6 +26,10 @@
 
 .breadcrumbs a{
     color: #3b61a6;
+}
+
+.main-content{
+    background-color: #f8f8f8;
 }
 
 .main-content h1{
@@ -67,4 +78,82 @@ header.white-header.sticky{
     color: #fff;
     background-color: #3b60a6da;
     padding:100px;
+}
+
+
+.map-serach-field {
+    width: 966px;
+    height: 55px;
+    margin: 0 0 0.5px;
+    padding: 18px;
+    border: solid 1px #808080;
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 16px;
+    color: #3b61a6;
+    background-image:  url(../images/search.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#map {
+    height: 700px;
+}
+
+.results-left-box p{
+    font-family: 'PFSquareSansProMedium';
+    font-size: 24px;
+    font-weight: 500;
+    color: #3b61a6;
+}
+
+
+.results-right-box h2{
+    font-family: 'PFSquareSansProMedium';
+    font-size: 32px;
+    font-weight: 500;
+    color: #3b61a6;
+    line-height: 1.5;
+    margin-bottom:30px;
+}
+
+.results-right-box ul{
+    padding:0; 
+}
+.results-right-box ul li{
+    font-family: Arial;
+    font-size: 18px;
+    color: #444;
+    list-style-type: none;
+    background-image:  url(../images/tick.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left:40px;
+    line-height: 1.78;
+}
+
+.search-area span:nth-child(1){
+    background-color: #3b61a6;
+    color: #ffffff;
+    font-family: 'Arial';
+    font-size: 21px;
+    padding: 20px 10px;
+    font-weight: bold;
+    float: left;
+    margin-right:10px; 
+}
+
+.search-area span:nth-child(2){
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.78;
+    color: #444;
+    float: left;
+    margin-left:10px; 
+    margin-top:5px;
+  }
+ 
+.search-results{
+    background-color:#ffffff;
 }
