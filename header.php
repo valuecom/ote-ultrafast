@@ -6,10 +6,10 @@
         <div class="header-inner py-4 d-flex align-items-center justify-content-between">
 
             <div class="logo">
-                <a href="/" title="OTE Ultrafast"><img src="<?php echo $BASE_URL; ?>images/ultrafast-logo-white.webp"
+                <a href="/" title="OTE Ultrafast"><img src="./images/ultrafast-logo-white.webp"
                         alt="ote-ultrafast-logo"></a>
             </div>
-            <nav class="header-menu d-lg-flex">
+            <nav class="header-menu d-none d-lg-flex">
                 <div class="main-menu">
                     <ul class="d-lg-flex flex-lg-row flex-lg-wrap list-unstyled mb-0 text-color-white">
                         <li class="mx-4 menu-item current-menu-item"><a href="#" class=""><span>Η

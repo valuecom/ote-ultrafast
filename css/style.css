@@ -29,6 +29,7 @@ body {
     --color-white: #ffffff;
     --color-dark: #444444;
     --color-blue: #3b61a6;
+    --color-darkgrey: #808080;
 }
 
 a {
@@ -52,7 +53,7 @@ svg {
 .btn-style-1:after {
     content: " ";
     display: inline-block;
-    background-image: url(../images/arrow-btn.svg);
+    background-image: url(https://cripe.valuecom-demos.com/wp-content/uploads/2023/08/arrow-btn.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 12px;
@@ -111,21 +112,26 @@ svg {
 }
 
 h2 {
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 34px;
+    line-height: 44px;
     font-family: 'PFSquareSansProMedium';
 }
 
 h3 {
     font-size: 18px;
     line-height: 26px;
-    text-transform: uppercase;
     font-weight: 400;
 }
 
 h4 {
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 34px;
+    line-height: 44px;
+    font-family: 'PFSquareSansProMedium';
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 26px;
     font-family: 'PFSquareSansProMedium';
 }
 
@@ -216,6 +222,57 @@ header.sticky {
     cursor: pointer;
 }
 
+.home-img-map-greece {
+    mix-blend-mode: screen;
+}
+
+.latest-news-item .news-content {
+    padding: 15px 26px;
+    min-height: 215px;
+}
+
+.news-title h5 a {
+    color: var(--color-blue)
+}
+
+.latest-news-item {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.swiper-wrapper {
+    height: auto;
+    padding-bottom: 50px; 
+}
+.latest-news-item .news-read-more {
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #d1d1d1;
+}
+.latest-news-item:nth-child(odd) .news-image {
+    border-color: var(--color-darkgrey);
+}
+
+.latest-news-item:nth-child(even) .news-image {
+    border-color: var(--color-blue);
+}
+
+.latest-news-item .news-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.latest-news-item .news-image {
+    border-width: 43px 28px;
+    border-style: solid;
+}
+.home-network-section{
+    height: auto;
+}
+
+
+
 @keyframes up-down {
     0% {
         transform: translateY(0);
@@ -263,8 +320,24 @@ header.sticky {
         line-height: 66px;
     }
 
-}
+    .latest-news-item .news-image {
+        border-width: 43px 61px;
+    }
+    .swiper-wrapper {
+        padding-bottom: 70px; 
+    }
+    
 
+
+}
+@media (min-width: 1200px) {
+
+    .home-network-section{
+        min-height: 100vh;
+    }
+
+
+}
 
 
 
