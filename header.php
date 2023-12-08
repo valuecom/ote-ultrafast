@@ -6,7 +6,7 @@
         <div class="header-inner py-4 d-flex align-items-center justify-content-between">
 
             <div class="logo">
-                <a href="/" title="OTE Ultrafast"><img src="/images/ultrafast-logo-white.webp"
+                <a href="/" title="OTE Ultrafast"><img src="<?php echo $BASE_URL; ?>images/ultrafast-logo-white.webp"
                         alt="ote-ultrafast-logo"></a>
             </div>
             <nav class="header-menu d-lg-flex">

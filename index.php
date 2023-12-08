@@ -1,4 +1,5 @@
 <?php
+    require_once('config.php');
 
 ?>
 <!DOCTYPE html>
@@ -8,18 +9,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OTE Ultrafast</title>
-    <link rel="stylesheet" href="http://localhost/Ote-ultrafast/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $BASE_URL; ?>css/bootstrap.min.css">
     
-    <link rel="stylesheet" href="http://localhost/Ote-ultrafast/css/style.css">
+    <link rel="stylesheet" href="<?php echo $BASE_URL; ?>css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="<?php echo $BASE_URL; ?>js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo $BASE_URL; ?>js/script.js"></script>
 </head>
 
 <body>
 
-    <?php include "/header.php" ?>
+    <?php include_once("header.php"); ?>
 
     <main>
         <section>
@@ -53,7 +54,7 @@
                     </div>
                     <div class="row my-lg-4 align-items-center">
                         <div class="col-lg-6 mb-4 mb-lg-0">
-                            <img src="images/home-imag-1.webp" alt="">
+                            <img src="<?php echo $BASE_URL; ?>images/home-imag-1.webp" alt="">
                         </div>
                         <div class="col-lg-6">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -99,7 +100,7 @@
         </section>
     </main>
 
-    <?php include "/footer.php" ?>
+    <?php include_once("footer.php"); ?>
 
 </body>
 

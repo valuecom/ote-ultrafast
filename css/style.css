@@ -52,7 +52,7 @@ svg {
 .btn-style-1:after {
     content: " ";
     display: inline-block;
-    background-image: url(https://cripe.valuecom-demos.com/wp-content/uploads/2023/08/arrow-btn.svg);
+    background-image: url(../images/arrow-btn.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 12px;
@@ -199,7 +199,7 @@ header.sticky {
 
 /* main */
 .home-top-section {
-    background-image: url(/images/home-banner-video.webp);
+    background-image: url(../images/home-banner-video.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,7 +231,7 @@ header.sticky {
 }
 
 .home-network-section {
-    background-image: url(/images/home-map-greece.webp);
+    background-image: url(../images/home-map-greece.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -272,8 +272,8 @@ header.sticky {
 
 @font-face {
     font-family: 'PFSquareSansProMedium';
-    src: url('/fonts/PFSquareSansProMedium.woff2') format('woff2'),
-        url('/fonts/PFSquareSansProMedium.woff') format('woff');
+    src: url('../fonts/PFSquareSansProMedium.woff2') format('woff2'),
+        url('../fonts/PFSquareSansProMedium.woff') format('woff');
     font-weight: 500;
     font-display: swap;
 }
